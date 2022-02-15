@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css" />
+    <title>memory-game</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="title" id="title">Flip Cards!</div>
+        <div class="playground" id="playground">
+        </div>
+        <div class="controls">
+            <button id="restart">Restart</button>
+
+        </div>
+
+        <div class="result-board hide" id="result-board">
+            <div class="current-turn" id="current-turn">Total turns: 1</div>
+            <div class="best-score" id="best-score">Best score: 8</div>
+        </div>
+
+        <div class="sidebar">
+            <div class="top">
+                <div class="menu">
+                    <div class="logo" id="logo">Memory Game</div>
+                    <div class="hamburger is-active" id="hamburger">
+                        <span class="line"></span>
+                        <span class="line"></span>
+                        <span class="line"></span>
+                    </div>
+                </div>
+                <div class="score-history" id="score-history">
+                    <p>Score History</p>
+                </div>
+
+                <div class="chips-list" id="chips-list">
+                </div>
+            </div>
+            <div class="bottom" id="sidebar-bottom">
+                <a href="https://rs.school/js/">
+                    <div class="rsscool" id="rsschool"></div>
+                </a>
+                <div>©2022</div>
+                <a id="github" href="https://github.com/Mrdoker1">Github</a>
+            </div>
+        </div>
+
+    </div>
+    <script src="./random.js"></script>
+    <script src="./index.js"></script>
+    <script src="./burger.js"></script>
+</body>
+
+</html>
